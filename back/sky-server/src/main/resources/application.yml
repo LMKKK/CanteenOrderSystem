@@ -1,0 +1,47 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  main:
+    allow-circular-references: true
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://124.222.203.242:3306/sky_take_out?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+
+  redis:
+    host: 124.222.203.242
+    port: 6379
+    password: root
+    database: 0 # 操作的是0号数据库
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+sky:
+  jwt:
+    admin-secret: itcast   # 设置jwt签名加密时使用的秘钥
+    admin-ttl: 86400000    # 设置jwt过期时间(1天)
+    user-secret: itheima  # 设置jwt签名加密时使用的秘钥（小程序）
+    user-ttl: 36000000  # 设置jwt过期时间(600分钟)
+    user-token-name: authentication  # token请求头名称
+  alioss:
+    accessKeyId: LTAI5tGuNYgzh8x1LkFUDMoy
+    accessKeySecret: KfXX8mHCbDQulTtO16UwxNlPDvnNUI
+    endpoint: oss-cn-qingdao.aliyuncs.com
+    bucketName: kkbank
+  wechat:
+    appid: wx4ae9d4ad2937b4ab
+    secret: 4b620985d44e280d6ced26c688e4f45c
+  shop:
+    shopAddress: 山东省威海市荣成市学院路2006号哈尔滨理工大学荣成校区
+  baidu:
+    ak: qWZ1OP1vYQ3hPMrMaO6mCgetuW3B4OZc
