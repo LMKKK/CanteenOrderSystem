@@ -15,7 +15,7 @@
 
 <font color="red">**双击`nginx.exe`启动即可，接下来在浏览器中输入`localhost`查看效果**</font>
 
-
+![image-20230908150516768](https://kkbank.oss-cn-qingdao.aliyuncs.com/note-img/image-20230908150516768.png)
 
 
 
