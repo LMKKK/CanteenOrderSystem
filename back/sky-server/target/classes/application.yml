@@ -28,9 +28,9 @@ mybatis-plus:
 
 sky:
   jwt:
-    admin-secret: itcast   # 设置jwt签名加密时使用的秘钥
+    admin-secret: hrbust   # 设置jwt签名加密时使用的秘钥
     admin-ttl: 86400000    # 设置jwt过期时间(1天)
-    user-secret: itheima  # 设置jwt签名加密时使用的秘钥（小程序）
+    user-secret: hlgrc  # 设置jwt签名加密时使用的秘钥（小程序）
     user-ttl: 36000000  # 设置jwt过期时间(600分钟)
     user-token-name: authentication  # token请求头名称
   alioss:
