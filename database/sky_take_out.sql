@@ -1,10 +1,10 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : 124.222.203.242
+ Source Server         : localhost
  Source Server Type    : MySQL
  Source Server Version : 80027 (8.0.27)
- Source Host           : 124.222.203.242:3306
+ Source Host           : localhost:3306
  Source Schema         : sky_take_out
 
  Target Server Type    : MySQL
